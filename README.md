@@ -6,7 +6,8 @@ HomeSentry is an open source platform that turns your old phones into a distribu
 <img alt="Hack the 6ix 2020 First Place Winner" src="./screenshots/ht6-win.png" width="300" />
 :tada: We've been selected 1st place winner @ HackThe6ix 2020 !!
 
-> Demo here : https://www.youtube.com/watch?v=SoRZkp_e9fs
+<br/>
+Demo here : https://www.youtube.com/watch?v=SoRZkp_e9fs
 
 
 ### Check it out !
