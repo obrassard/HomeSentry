@@ -42,15 +42,15 @@ HomeSentry is an open source platform that turns your old phones or any devices 
 
 ## Inspiration
 
-We all have old phones stored in the bottom of a drawer waiting to be used for something. This is where the inspiration for HomeSentry came from. Indeed, We wanted to give our old cellphone and electronic devices a new use so they don't only collect dust over time. Generally speaking, every cellphones have a camera that could be used for something, and we thought using it for security reason would be a great idea. Home surveillance camera systems are often very expensive, or are complicated to set up. Our solution is very simple and costs close to nothing since it's equipment you already have.
+We all have old phones stored in the bottom of a drawer waiting to be used for something. This is where the inspiration for HomeSentry came from. Indeed, We wanted to give our old cellphone and electronic devices a new use so they don't only collect dust over time. Generally speaking, every cellphone have a camera that could be used for something, and we thought using it for security reason would be a great idea. Home surveillance camera systems are often very expensive, or are complicated to set up. Our solution is very simple and costs close to nothing since it's equipment you already have.
 
 ## How it works
 
-HomeSentry turns your old cellphones into a complete security system for your home. It's a modular solution where you can register as many devices as you have at your disposition. Every devices are linked to your account and automatically stream their camera feed to your personnal dashboard in real time. You can view your security footage from anywhere by login to HomeSentry website.
+HomeSentry turns your old cellphones into a complete security system for your home. It's a modular solution where you can register as many devices as you have at your disposition. Every device are linked to your account and automatically stream their camera feed to your personnal dashboard in real time. You can view your security footage from anywhere by logging in to your HomeSentry dashboard.
 
 ## How we built it
 
-The HomeSentry platform is constitued of 3 main components :
+The HomeSentry platform is constituted of 3 main components :
 
 #### 1. HomeSentry Server
 
