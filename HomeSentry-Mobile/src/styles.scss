@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito:wght@200;300;400&family=Alata&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alata';
+}
+
+
+html, p, body, span, div {
+    font-family: 'Nunito';
+    font-weight: 300;
+}
+
+.logo {
+    font-family: 'Nunito';
+    font-weight: 400;
+}

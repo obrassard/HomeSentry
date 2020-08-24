@@ -1,0 +1,139 @@
+@import "../../../variables";
+
+.container-fluid,
+.row {
+  height: 100vh;
+  position: relative;
+}
+
+.login {
+  background: #004b91;
+  background: linear-gradient(to bottom right, #004b91, #0eb7fa);
+  @include media-breakpoint-down(md) {
+    background: linear-gradient(to right, #004b91, #03a1d6);
+  }
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.form-wrap {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+
+  .form-group {
+    border: 1px solid #033c72;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #033c72;
+    position: relative;
+    transition: all 300ms ease-in-out;
+
+    &:focus-within {
+      border: 2px solid rgba(255, 250, 250, 0.699);
+    }
+
+    svg.feather {
+      position: absolute;
+      width: 15px;
+      left: 20px;
+      top: 38px;
+    }
+
+    label {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1.2px;
+      color: #cbe3fa;
+      margin-bottom: 0.2rem;
+    }
+
+    input {
+      border-radius: 0;
+      padding: 0;
+      border: 0;
+      padding-left: 23px;
+      height: 28px;
+      background: none;
+      color: white;
+
+      &:focus,
+      &:active {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+  }
+
+  .btn-login {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #cbe3fa;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: #033c72;
+    position: relative;
+
+    svg.feather {
+      position: absolute;
+      width: 18px;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &:focus {
+      border: 2px solid #033c72;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+}
+
+.house-img {
+  width: 75%;
+  position: absolute;
+  bottom: 2%;
+  right: 20px;
+}
+
+.credits {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  font-size: 20px;
+  max-width: 50%;
+
+  .intro {
+    margin-top: 70px
+  }
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
+  &-mobile {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+  }
+}
+
+.feather-heart {
+  height: 18px;
+  width: 18px;
+}

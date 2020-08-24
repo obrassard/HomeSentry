@@ -1,0 +1,31 @@
+.video-detail-player {
+  height: calc(100vh - 66px);
+  padding: 0 !important;
+}
+
+.video-detail-info {
+
+  background-color: lightgrey;
+
+  .video-detail-info-name {
+    font-weight: 700;
+  }
+
+  .video-detail-info-logs {
+    width: 100%;
+
+    margin: 10px 0;
+
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+.container-fluid {
+  padding-top: 66px;
+}
+
+.feather {
+  margin-right: 10px;
+}

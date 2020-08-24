@@ -1,0 +1,33 @@
+.video-thumbnail-card {
+  margin: 15px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  transition: box-shadow 500ms;
+
+  &:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  resize: both;
+  overflow: auto;
+
+  .video-thumbnail-description {
+
+    position: relative;
+
+    span {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      margin-top: 2px !important;
+
+      font-weight: 700;
+    }
+
+    .feather {
+      margin-right: 10px;
+    }
+  }
+}

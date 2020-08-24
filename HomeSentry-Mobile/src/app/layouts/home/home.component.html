@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div>
+  <div class="container-fluid">
+    <div class="row name-choose">
+      <div class="col-sm-12 col-lg-6 offset-lg-3 text-center">
+        <div class="mt-3 form-wrap">
+          <h2>Hello {{username}}</h2>
+          <p class="mt-5">Please choose the name of this camera</p>
+          <form class="mt-2">
+            <div class="form-group">
+              <label for="name">Camera name</label>
+              <i data-feather="camera"></i>
+              <input type="text" [(ngModel)]="name" class="form-control" id="name" name="name" required #nameInput>
+            </div>
+            <button type="submit" (click)="onClick()" class="btn btn-login btn-block">
+              Next<i data-feather="send"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

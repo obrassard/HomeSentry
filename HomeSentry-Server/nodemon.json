@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "server.ts",
+    "constant/",
+    "controllers/",
+    "models/",
+    "services/",
+    "public/",
+    "views/"
+  ],
+  "ext": "js, html, css, ts, twig"
+}

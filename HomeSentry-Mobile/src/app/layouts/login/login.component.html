@@ -1,0 +1,43 @@
+<div class="login">
+    <div class="container-fluid px-4">
+        <div class="row">
+            <div class="col-lg-5 col-12">
+                <h2 class="logo mt-3 ml-3 mb-5"><img src="/assets/home.svg" class="mr-2 mb-2">HomeSentry</h2>
+                <div class="mt-3 form-wrap">
+                    <h1>Welcome back</h1>
+                    <p>Please sign in to continue</p>
+                    <form class="mt-2">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <i data-feather="mail"></i>
+                            <input type="email" [(ngModel)]="credentials.email" class="form-control" id="email"
+                                aria-describedby="emailHelp" name="password" required #nameInput>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <i data-feather="lock"></i>
+                            <input type="password" [(ngModel)]="credentials.password" class="form-control" id="password" name="password" required #passwordInput>
+                        </div>
+                        <button type="submit" (click)="onClick()" class="btn btn-login btn-block">
+                            Submit<i data-feather="send"></i></button>
+                        <div class="mt-3">
+                            <a [routerLink]="['/signup']" class="text-light">I don't have an account yet.</a>
+                        </div>
+                    </form>
+                </div>
+                <p class="credits-mobile">Made with <i data-feather="heart"></i> at HackThe6ix 2020</p>
+            </div>
+            <div class="col-lg-7 d-none d-lg-block">
+                <img class="house-img" src="/assets/undraw_at_home_octe.svg"/>
+            </div>
+            <div class="credits text-right">
+                <p>Made with <i data-feather="heart"></i> at HackThe6ix 2020</p>
+                <p class="text-center intro">
+                    HomeSentry is an open source platform that turns your old phones into a distributed security camera system. 
+                    Simply install our app on any mobile device and start monitoring your home (or any other place).
+                    HomeSentry gives a new life to your old devices while bringing you the peace of mind you deserve!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

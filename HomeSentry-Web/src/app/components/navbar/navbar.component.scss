@@ -1,0 +1,41 @@
+nav {
+    background: #004b91;
+    background: linear-gradient(to right, #004b91, #08a2df);
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        padding: 10px;
+        padding-right: 45px;
+        margin-left: 15px;
+        padding-left: 15px;
+        border-radius: 10px;
+        position: relative;
+        transition: all 250ms ease-in-out;
+
+        &:hover {
+            background: #004b91;
+        }
+
+        .feather {
+            $size: 20px;
+            width: $size;
+            height: $size;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: 5px;
+            right: 13px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="px-4">
+  <div class="home container-fluid">
+    <div class="row">
+      <h1>Hello {{username}}!</h1>
+    </div>
+    <div class="row">
+
+      <div class="video-thumbnails col-md" (click)="onClick(video)" *ngFor="let video of dataService.videos | keyvalue">
+        <app-video-thumbnail [video]="video.value" [videoId]="video.key">
+        </app-video-thumbnail>
+      </div>
+      <h4 *ngIf="!dataService.videos.size" class="text-center pt-5">You currently have no stream to show. Please connect
+        a
+        mobile device!
+      </h4>
+    </div>
+  </div>
+  <p>RECIEVER ID : {{peerID}}</p>
+</div>
