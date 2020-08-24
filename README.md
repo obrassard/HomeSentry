@@ -3,6 +3,8 @@ HomeSentry is an open source platform that turns your old phones into a distribu
 
 **Made with :heart: by [@ChristopherSt-Pierre](https://github.com/ChristopherSt-Pierre), [@VinConstantin](https://github.com/VinConstantin), [@charliesis](https://github.com/charliesis) and [@obrassard](https://github.com/obrassard) at HackThe6ix 2020**
 
+<img alt="Hack the 6ix 2020 First Place Winner" src="./screenshots/ht6-win.png" width="300" />
+
 > Demo here : https://www.youtube.com/watch?v=SoRZkp_e9fs
 
 
@@ -30,11 +32,11 @@ HomeSentry is an open source platform that turns your old phones into a distribu
 
 ## Screenshots 
 
-!['screenshot1'](./screenshots/desktop-login.png)
-!['screenshot2'](./screenshots/mobile-login.png)
-!['screenshot3'](./screenshots/mobile.png)
-!['screenshot4'](./screenshots/mobile-video.png)
-!['screenshot5'](./screenshots/desktop.png)
+<img src="./screenshots/desktop-login.png" />
+<img src="./screenshots/desktop.png" />
+<img src="./screenshots/mobile-login.png" width="300"/>
+<img src="./screenshots/mobile.png" width="300" />
+<img src="./screenshots/mobile-video.png"  width="300"/>
 
 # The project 
 
