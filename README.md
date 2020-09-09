@@ -46,11 +46,11 @@ HomeSentry is an open source platform that turns your old phones or any devices 
 
 ## Inspiration
 
-We all have old phones stored in the bottom of a drawer waiting to be used for something. This is where the inspiration for HomeSentry came from. Indeed, We wanted to give our old cellphone and electronic devices a new use so they don't only collect dust over time. Generally speaking, every cellphone have a camera that could be used for something, and we thought using it for security reason would be a great idea. Home surveillance camera systems are often very expensive, or are complicated to set up. Our solution is very simple and costs close to nothing since it's equipment you already have.
+We all have old phones stored in the bottom of a drawer waiting to be used for something. This is where the inspiration for HomeSentry came from. Indeed, We wanted to give our old cellphone and electronic devices a new use so they don't only collect dust over time. Generally speaking, every cellphone has a camera that could be used for something, and we thought using it for security reason would be a great idea. Home surveillance camera systems are often very expensive, or are complicated to set up. Our solution is very simple and costs close to nothing since it's equipment you already have.
 
 ## How it works
 
-HomeSentry turns your old cellphones into a complete security system for your home. It's a modular solution where you can register as many devices as you have at your disposition. Every device are linked to your account and automatically stream their camera feed to your personnal dashboard in real time. You can view your security footage from anywhere by logging in to your HomeSentry dashboard.
+HomeSentry turns your old cellphones into a complete security system for your home. It's a modular solution where you can register as many devices as you have at your disposition. Every devices are linked to your account and automatically stream their camera feed to your personal dashboard in real time. You can view your security footage from anywhere by logging in to your HomeSentry dashboard.
 
 ## How we built it
 
@@ -74,7 +74,7 @@ On a more technical note, this app uses several open sources framework and libra
 
 The NodeJS server is built with TypeScript, Express.JS. We use Passport.JS + MongoDB as our authentication system and SocketIO to exchange real time data between every user's devices (cameras) and the dashboard.
 
-On mobile side we are using WebRTC to access the devices' camera stream and to link it to the dashboard. Every camera stream is distributed by a peer to peer connection with the web dashboard when it become active. This ensures the streams privacy and reduce video latency. We used Peer.JS and SocketIO to implement this mecanism.
+On mobile side we are using WebRTC to access the devices' camera stream and to link it to the dashboard. Every camera stream is distributed by a peer to peer connection with the web dashboard when it becomes active. This ensures the streams privacy and reduces video latency. We used Peer.JS and SocketIO to implement this mecanism.
 
 Just like the mobile client, the web dashboard is built with Angular and frontend libraries such as Bootstrap or feather-icons.
 
@@ -83,9 +83,9 @@ Just like the mobile client, the web dashboard is built with Angular and fronten
 Overall we've learned that sending live streams is quite complicated !
 We had underestimated the effort required to send and manage this feed. While working with this type of media, we learned how to communicate with WebRTC. At the begining, we tried to do all the stuff by oursef and use different protocols such as RTMP, but we come to a point where it was a little buggy. Late in the event, we found and used the PeerJS lib to manage those streams and it considerably simplified our code.
 
-We found that working with mobile applications like Xamarin is much more complicated for this kind of project. The easiest way was clearly javascript, and it allow a greater type of device to be registered as cameras. 
+We found that working with mobile applications like Xamarin is much more complicated for this kind of project. The easiest way was clearly javascript, and it allows a greater type of device to be registered as cameras. 
 
-The project also help us improved our knowledge of real time messaging and WebSocket by using SocketIO to add a new stream without having to refresh the web page.
+The project also help us improve our knowledge of real time messaging and WebSocket by using SocketIO to add a new stream without having to refresh the web page.
 
 We also used an authentication library we haven't used yet, called PassportJS for Node. With this we were able to show only the streams of a specific user.
 
