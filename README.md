@@ -14,7 +14,7 @@ Demo here : https://www.youtube.com/watch?v=SoRZkp_e9fs
 
 | Environment | Url |
 | ----------- | --- |
-| HomeSentry Server | http://homesentry.azurewebsites.net <br> https://homesentry-server.cloud.obrassard.ca |
+| HomeSentry Server | https://homesentry-server.cloud.obrassard.ca |
 | HomeSentry Dashboard | https://homesentry.netlify.app |
 | HomeSentry Mobile Client | https://homesentry-mobile.netlify.app |
 
