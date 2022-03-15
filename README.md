@@ -10,13 +10,13 @@ HomeSentry is an open source platform that turns your old phones into a distribu
 Demo here : https://www.youtube.com/watch?v=SoRZkp_e9fs
 
 
-### Check it out !
+<!-- ### Check it out !
 
 | Environment | Url |
 | ----------- | --- |
 | HomeSentry Server | https://homesentry-server.cloud.obrassard.ca |
 | HomeSentry Dashboard | https://homesentry.netlify.app |
-| HomeSentry Mobile Client | https://homesentry-mobile.netlify.app |
+| HomeSentry Mobile Client | https://homesentry-mobile.netlify.app | -->
 
 ### Built with 
 <p>
